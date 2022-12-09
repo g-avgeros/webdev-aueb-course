@@ -1,0 +1,21 @@
+.container {
+    width: 90%;
+}
+
+.img {
+    height: auto;
+}
+
+.aueb-heading{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    color: #792026;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.5rem; 
+    font-weight: 600;
+}
+
+.aueb-text {
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: 200;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise01</title>
+</head>
+<body>
+    <h1>Στοιχεία Εκπαιδευόμενου</h1>
+
+    <form>
+        <div>
+            <label for="lastname">Επώνυμο:</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Επώνυμο" required>
+        </div>
+        <div>
+            <label for="firtsname">Όνομα:</label>
+            <input type="text" name="firtsname" id="firtsname" placeholder="Όνομα" required>
+        </div>
+        <div>
+            <label for="Birthday">Ημερομηνία Γέννησης:</label>
+            <input type="date" name="Birthday" id="Birthday" placeholder="DD/MM/YY" maxlength="10" required>
+        </div>
+        <div>
+            <label for="education-year">Έτος Σπουδών:</label>
+            <input type="number" name="education-year" id="education-year" min="0" max="12" required>
+        </div>
+        <div>
+            <label for="email">Login (email):</label>
+            <input type="email"  id="email" placeholder="Email" required>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Password" maxlength="8"  required>
+        </div>
+        <div>
+            <input type="submit" value="Αποστολή">
+        </div>    
+
+    </form>
+
+    
+</body>
+</html>
